@@ -3,19 +3,261 @@
     <meta charset="UTF-8">
     <title>HW8</title>
     <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
 <div class="Content">
-    <header id="header">Header</header>
-    <section id="about">About</section>
-    <section id="education">Education</section>
-    <section id="experience">Work Experience</section>
-    <section id="skills">Skills</section>
-    <section id="contacts">Contacts</section>
-    <footer id="footer">Footer</footer>
+    <header id="header">
+        <img src="./images/Logo.svg" alt="Logo" width="40px" height="40px">
+        <div class="button-group">
+            <button class="button desktop">About me</button>
+            <button class="button desktop">Education</button>
+            <button class="button desktop">Work Experience</button>
+            <button class="button desktop">Skills</button>
+            <button class="button">Contacts</button>
+        </div>
+    </header>
+
+    <section id="about">
+        <p class="about-text">Hello!<br>
+            My name is <br class="mobile-br">Alex Smith<br>
+            I'm creative front-end developer</p>
+        <img class="Image" id="about-img" alt="About-image" width="1140px" height="400px"/>
+    </section>
+
+    <section id="education">
+        <h1 class="cards-header">Education</h1>
+        <div class="card-table">
+            <div class="edu-table-column">
+                <div class="text-div">
+                    <div class="text-div-top">
+                        <h1>Kingston university</h1>
+                        <h6>Master's degree - Software Engineering</h6>
+                    </div>
+                    <p class="edu-year">2019 - 2021</p>
+                </div>
+                <div class="text-div">
+                    <div class="text-div-top">
+                        <h1>Kingston university</h1>
+                        <h6>Bachelor's degree - Computer Engineering</h6>
+                    </div>
+                    <p class="edu-year">2015 - 2019</p>
+                </div>
+                <div class="text-div">
+                    <div class="text-div-top">
+                        <h1>Westminster School</h1>
+                        <h6>Diploma's degree - Mathematics</h6>
+                    </div>
+                    <p class="edu-year">2013 - 2015</p>
+                </div>
+            </div>
+
+            <div class="edu-table-column">
+                <div class="text-div">
+                    <div class="text-div-top">
+                        <h1>Kingston university</h1>
+                        <h6>Master's degree - Software Engineering</h6>
+                    </div>
+                    <p class="edu-year">2019 - 2021</p>
+                </div>
+                <div class="text-div">
+                    <div class="text-div-top">
+                        <h1>Kingston university</h1>
+                        <h6>Bachelor's degree - Computer Engineering</h6>
+                    </div>
+                    <p class="edu-year">2015 - 2019</p>
+                </div>
+                <div class="text-div">
+                    <div class="text-div-top">
+                        <h1>Westminster School</h1>
+                        <h6>Diploma's degree - Mathematics</h6>
+                    </div>
+                    <p class="edu-year">2013 - 2015</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h1 class="cards-header">Work<br class="mobile-br"> Experience</h1>
+        <div class="button-group work-button">
+            <button id="apple-btn" class="button">Apple</button>
+            <button id="microsoft-btn" class="button">Microsoft</button>
+            <button id="facebook-btn" class="button">Facebook</button>
+        </div>
+        <div class="card-table exp-table">
+            <div class="text-div">
+                <div class="text-div-top">
+                    <p>Front-end Developer Apple.Inc</p>
+                    <p>California, United States</p>
+                </div>
+                <p>Nov 2020 - Present · Full-time</p>
+                <p class="desktop">
+                    В начале XX века немецкие психологи провели исследования восприятия человеком окружающего мира. Они
+                    выявили естественное стремление человека найти порядок в беспорядке.
+                </p>
+                <p class="desktop">
+                    Их эксперименты показали, что когда мозг обрабатывает полученные образы, он воспринимает
+                    разрозненные элементы как единое целое. Подсознательно мы пытаемся группировать похожие элементы,
+                    распознавать закономерности и таким образом упрощать сложные образы.
+                </p>
+            </div>
+            <img class="Image" id="exp-img" alt="Exp-Image" width="554px" height="400px"/>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="cards-header">Skills</h1>
+        <div class="skills-table">
+            <div class="skills-table-column">
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>React</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-1"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>Angular</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-2"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>HTML + CSS</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-3"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>Javascript</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-4"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>Python</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-table-column skills-table-column-right">
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>Soft skill</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-6"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>Motion graphics</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-7"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>UX</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-8"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>UI</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-9"></div>
+                    </div>
+                </div>
+                <div class="skill-div">
+                    <div class="skill-name">
+                        <p>3D</p>
+                        <img class="close-img" src="images/Close%20_%2016.png" alt="Close_" height="16" width="16"/>
+                    </div>
+                    <div class="skill-level">
+                        <div class="skill-level-line" id="line-10"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="add-new-skill">
+            <div class="add-next-skill-header">Add new skill</div>
+            <div class="add-skill-form">
+                <div class="form-field">
+                    <label class="field-label" for="name">Skill name</label>
+                    <input class="field-input" type="text" id="name" name="name">
+                </div>
+                <div class="form-field">
+                    <label class="field-label" for="proficiency">Skill proficiency percentage, %</label>
+                    <input class="field-input" type="text" id="proficiency" name="proficiency">
+                </div>
+                <button class="submit-new-skill">Add</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h1 class="cards-header">Contacts</h1>
+        <div class="contacts-table">
+            <div class="contact-table-card">
+                <img src="images/pin.png" height="40" width="40" alt="Pin"/>
+                <address class="text-div-top">
+                    <p class="address-name">Address</p>
+                    <a href="https://maps.google.com/?q=16 Lva Tolstogo str., Moscow">16 Lva Tolstogo str., Moscow</a>
+                </address>
+            </div>
+            <div class="contact-table-card">
+                <img src="images/phone%20call.png" height="40" width="40" alt="Phone"/>
+                <address class="text-div-top">
+                    <p class="address-name">Phone</p>
+                    <a href="tel:+7 (000) 000 00 00">+7 (000) 000 00 00</a>
+                </address>
+            </div>
+            <div class="contact-table-card">
+                <img src="images/mail.png" height="40" width="40" alt="Mail"/>
+                <address class="text-div-top">
+                    <p class="address-name">E-Mail</p>
+                    <a href="mailto:myemail@yandex.ru">myemail@yandex.ru</a>
+                </address>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="social-media">
+            <img src="images/inst.png" alt="Instagram" width="24" height="24">
+            <img src="images/github.png" alt="Github" width="24" height="24">
+            <img src="images/twitter.png" alt="Twitter" width="24" height="24">
+            <img src="images/linkedin.png" alt="Linkedin" width="24" height="24">
+        </div>
+        <p>© 2023</p>
+    </footer>
+<!--    Pages-->
 </div>
-
-<img class="Image" width="500px"/>
-
 </body>
 </html>

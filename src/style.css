@@ -393,6 +393,10 @@ body {
         gap: 32px;
     }
 
+    #contacts{
+        height:581px;
+    }
+
     .about-text {
         line-height: 44px;
         font-size: 36px;
@@ -547,7 +551,7 @@ body {
     #footer {
         gap: 24px;
         padding-top: 0;
-        padding-bottom: 24px;
+        padding-bottom: 25px;
         display: flex;
         flex-direction: column;
         justify-items: center;
